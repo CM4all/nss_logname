@@ -11,8 +11,8 @@ Building nss_logname
 
 You need:
 
-- a C++23 compliant compiler (e.g. gcc or clang)
-- `Meson 1.2 <http://mesonbuild.com/>`__ and `Ninja <https://ninja-build.org/>`__
+- a C++14 compliant compiler (e.g. gcc or clang)
+- `Meson 0.56 <http://mesonbuild.com/>`__ and `Ninja <https://ninja-build.org/>`__
 
 Get the source code::
 

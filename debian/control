@@ -3,8 +3,7 @@ Section: admin
 Priority: optional
 Maintainer: Max Kellermann <max.kellermann@ionos.com>
 Build-Depends: debhelper (>= 13.3~),
- g++ (>= 4:12),
- meson (>= 1.2)
+ meson (>= 0.56)
 Standards-Version: 4.0.0
 Vcs-Browser: https://github.com/CM4all/nss_logname
 Vcs-Git: git://github.com/CM4all/nss_logname

@@ -1,6 +1,7 @@
 libnss-cm4all-logname (0.22) unstable; urgency=low
 
   * nss: moved to separate repository
+  * revert to C++14
 
  --   
 

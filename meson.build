@@ -1,7 +1,7 @@
 project('nss_logname', 'cpp', version: '0.22',
-  meson_version: '>= 1.2',
+  meson_version: '>= 0.56',
   default_options: [
-    'cpp_std=c++23',
+    'cpp_std=c++14',
     'warning_level=3',
   ],
 )
