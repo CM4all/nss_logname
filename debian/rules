@@ -1,17 +1,8 @@
 #!/usr/bin/make -f
 # -*- mode: makefile; coding: utf-8 -*-
 
-MESON_OPTIONS = \
-	-Dcap=enabled \
-	-Ddocumentation=enabled \
-	-Dpg=enabled \
-	-Dseccomp=enabled \
-	-Dsodium=enabled \
-	-Dsystemd=enabled \
-	--werror
-
 %:
-	dh $@ --no-start --restart-after-upgrade --with sphinxdoc
+	dh $@
 
-override_dh_auto_configure:
-	dh_auto_configure -- $(MESON_OPTIONS)
+override_dh_auto_install:
+	dh_auto_install --destdir=debian/tmp

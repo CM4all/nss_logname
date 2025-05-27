@@ -1,3 +1,0 @@
-[Unit]
-Description=CM4all Process Spawner Slice
-Before=slices.target
