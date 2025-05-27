@@ -1,4 +1,4 @@
-project('nss_logname', 'cpp', version: '0.22',
+project('nss_logname', 'cpp', version: '0.23',
   meson_version: '>= 0.56',
   default_options: [
     'cpp_std=c++14',
