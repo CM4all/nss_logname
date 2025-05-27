@@ -3,7 +3,7 @@ libnss-cm4all-logname (0.22) unstable; urgency=low
   * nss: moved to separate repository
   * revert to C++14
 
- --   
+ -- Max Kellermann <mk@cm4all.com>  Tue, 27 May 2025 18:54:02 +0200
 
 cm4all-spawn (0.21) unstable; urgency=low
 
