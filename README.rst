@@ -2,7 +2,7 @@ nss_logname
 ===========
 
 *nss_logname* is an glibc NSS module which pretends there is a
-:file:`/etc/passwd` entry for the current uid named ``$LOGNAME``.
+``/etc/passwd`` entry for the current uid named ``$LOGNAME``.
 This should be installed in containers spawned by the process spawner.
 
 
